@@ -1,6 +1,6 @@
 import classNames from "classnames";
 
-interface ButtonProps {
+export interface ButtonProps {
   children: React.ReactNode;
   variant?: "alert" | "regular" | "grayscale";
 }
