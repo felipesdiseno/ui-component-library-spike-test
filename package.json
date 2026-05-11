@@ -6,15 +6,14 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/ui-components-library.js",
-  "module": "./dist/ui-components-library.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/UI-components-library.js",
+  "module": "./dist/UI-components-library.js",
+  "types": "./dist/main.d.ts",
   "exports": {
     ".": {
       "import": "./dist/UI-components-library.js",
       "types": "./dist/main.d.ts"
-    },
-    "./dist/style.css": "./dist/style.css"
+    }
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
