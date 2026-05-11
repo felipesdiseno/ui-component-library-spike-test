@@ -11,8 +11,8 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/ui-components-library.js",
-      "types": "./dist/index.d.ts"
+      "import": "./dist/UI-components-library.js",
+      "types": "./dist/main.d.ts"
     },
     "./dist/style.css": "./dist/style.css"
   },
